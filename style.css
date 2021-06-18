@@ -1,0 +1,67 @@
+body {
+
+    background-color: rgb(255, 255, 255);
+    background-image: url("images/simpl2.png");
+
+}
+
+#box {
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url("images/simpl2.png");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 5px 5px 15px inset #27100188;
+    margin: 50px auto auto auto;
+    display: block;
+}
+
+
+.floatingimage {
+    float: left; 
+    margin: 10px; 
+    border: 1px solid black; 
+    box-shadow: 0 0 5px black;
+
+
+}
+
+#box2 {
+    
+    width: 200px;
+    height: 200px;
+    border: 2px dashed rgb(16, 176, 230); 
+    /* padding: 10px 15px 20px 25px; */
+    padding: 15px;
+    margin: auto;
+    display: block;
+}
+
+
+#box3 {
+
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    /* opacity: 0.5; */
+
+
+
+} 
+
+
+#inline {
+
+    display:inline-block;
+    border: 1px solid red;
+    max-width: 500px;
+    
+}
