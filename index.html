@@ -7,19 +7,31 @@
     <style>
 
         body {
-            background-color: #000000;
-            background-image: url("images/simpl2.png");
+
+            background-color: rgb(255, 255, 255);
+
         }
 
-        div {
-            background-image: url("images/simpl2.png"); 
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center center;
+        #box {
 
-            height: 300px;
-       }
-       
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: url("images/simpl2.png");
+            background-position: center center;
+            background-size: cover;
+            border-radius: 0 0 50% 50%;
+
+            box-shadow: 5px 5px 15px #ff6600;
+
+
+
+        }
+
+
+
+
+
     </style>
 
    
@@ -27,13 +39,7 @@
 
 <body>
 
-    <div>
-
-        Stuff goes here.
-
-    </div>
-
-
+    <div id="box"></div>
 
 </body>
 
